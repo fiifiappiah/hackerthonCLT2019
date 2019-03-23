@@ -1,96 +1,56 @@
+# An online Portal to save & manage patient data and provide indepth insight on community health support
 
-# Scotch Box
+## Status
 
-## [GET SCOTCH BOX PRO](https://box.scotch.io/pro)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-sb-admin-2/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-sb-admin-2.svg)](https://www.npmjs.com/package/startbootstrap-sb-admin-2)
+[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-sb-admin-2.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-sb-admin-2)
+[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-sb-admin-2/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-sb-admin-2)
+[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-sb-admin-2/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-sb-admin-2?type=dev)
 
-## [TUTORIAL](https://box.scotch.io)
-
-Just a Dead-Simple Local LAMP/LEMP Stack for Vagrant. **Making Vagrant EASY AS EATING CAKE for developers.**
-
-![Scotch Box](https://box.scotch.io/img/pro-banner.png)
-
-Scotch Box is a pre-configured Vagrant Box with a full array of features to get you up and running with Vagrant in no time.
-
-
-## Scotch Box 3.5!
-
-3.5 is finally here!
-
-* Ubuntu 16.04!
-* PHP 7!
-* MySQL 5.7!
-* NGNIX Option!
-* Go lang in the box
-* PHPUnit in the box
-* Yarn
-* Improved email catching with MailHog
-* Vagrant Share working nicely finally
-* The box's build scripts
-* Customize your own boxes in minutes
-* Generally higher versions of things (Node.js, Ruby, etc.)!
+## Download and Installation
 
 
-## License Required?!!!!?!
+-   [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/sb-admin-2/)
+-   Install via npm: `npm i startbootstrap-sb-admin-2`
+-   [Fork, Clone, or Download on GitHub](https://github.com/fiifiwondersauce/hackerthonclt2019)
 
-Still MIT License for the free version. The free version is still a beast.
+## Usage
 
-Pro will help support the project, let you customize some things a bit more, and will help this project survive. If you're super pissed about this, in school, working for good causes, or hurting for cash, then email me at nick@scotch.io so I can get you setup with Pro no charge.
+After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
-"Scotch Box Pro" is a paid version of the original Scotch Box. [Go Pro Now!](https://box.scotch.io/pro)
+### Gulp Tasks
 
+-   `gulp` the default task that builds everything
+-   `gulp watch` browserSync opens the project in your default browser and live reloads when changes are made
+-   `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
+-   `gulp js` minifies the themes JS file
+-   `gulp vendor` copies dependencies from node_modules to the vendor directory
 
-## Pro Features
+You must have npm and Gulp installed globally on your machine in order to use these features. This theme was built using node v11.6.0 and the Gulp CLI v2.0.1. If Gulp is not running properly after running `npm install`, you may need to update node and/or the Gulp CLI locally.
 
-* NEW OS: **Ubuntu-17.10!**
-* NEW PHP: **PHP 7.2!**
-* NEW APACHE: 2.4.29
-* NEW NGINX: 1.13.8
-* NEW RUBY via RVM: 2.5.0
-* NEW NODE via NVM: 8.9.4
-* NEW BUILD SCRIPTS
-* Fixes a MongoDB and PHP bug
-* **Makes Laravel routing finally work out of the box with NGINX version**
-* Adds Drush (Launcher) even though you should do this through Composer these days
-* Updated WP-CLI version
-* Generally WAY higher versions of everything else
+## Bugs and Issues
 
-![Scotch Box](https://box.scotch.io/img/terminal.png)
+This is an MVP prototype intended for demo for hackerthon 2019
 
-## Documentation
+## About
+This is an online platform intended to serve CLT Areas
 
-* Check out the official docs at: [box.scotch.io](https://box.scotch.io)
-* [Read the getting started article](https://scotch.io/bar-talk/introducing-scotch-box-a-vagrant-lamp-stack-that-just-works)
-* [Read the 2.0 release article](https://scotch.io/bar-talk/announcing-scotch-box-2-0-our-dead-simple-vagrant-lamp-stack-improved)
-* [Read the 2.5 release article](https://scotch.io/bar-talk/announcing-scotch-box-2-5)
-* [Read the 3.0 release article](https://scotch.io/bar-talk/announcing-scotch-box-30-and-scotch-box-pro)
-* [Read the 3.5 release article](https://scotch.io/bar-talk/announcing-scotch-box-v35-and-scotch-box-pro-v15-the-big-switcheroo)
+-   <https://startbootstrap.com>
+-   <https://twitter.com/SBootstrap>
+
+## Team
+- Pranathi Kallem
+- Darrell Reeves
+- Fiifi Appiah
 
 
+## Copyright and License
 
-## WPDistillery
-
-![WPDistillery Logo](http://files.flurinduerst.ch/wpdistillery/wpdistillery_bright.png)
-
-WPDistillery is an amazing tool by [Flurin Dürst](https://twitter.com/flurinduerst) that kickstarts your WordPress installation on Scotch Box. It is actively maintained, has lots of features and gets you started in less than 5 minutes.
-
-All you have to do is clone the repo, customize the configuration file to your needs, and <b>vagrant up</b>. WPDistillery will do the rest:
-
-![WPDistillery Preview](http://files.flurinduerst.ch/wpdistillery/wpdistillery_terminal_small.png)
-
-To get started, visit [wpdistillery.org](https://wpdistillery.org) or check out the [Documentation](https://github.com/flurinduerst/WPDistillery).
-
-
-## More Information
-
-Check-out [box.scotch.io](https://box.scotch.io) to learn more.
-
-
-
-
-## Special Thank You
-
-Thanks to anyone who has supported this project.
-
-I was dark on this project for a little bit too long, as I got caught up with work and a million other things. I apologize for slowness to release updates. I'm hoping the Pro version can create a bit more motivation to dedicate time to this. I also finally have the build scripts available for download with the Pro version so you all can start addressing bugs yourselves with your own personalized boxes.
-
-Thanks to the community for bug fixes and provisioning tips. Special shout-out to [@maxpou](https://github.com/maxpou) for completely killing it with community responses. 
+Copyright 2019 Hackerthon CLT 2019
+- getbootstrap.com
+- reactjs.org
+- BlackrockDigitalstartbootstrap-sb-admin2
+- Vagrant
+- ScotchBox
+- Tableu
